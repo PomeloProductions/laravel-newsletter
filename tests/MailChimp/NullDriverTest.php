@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Newsletter\Test;
+namespace PomeloProductions\Newsletter\Test;
 
 use Illuminate\Support\Facades\Log;
-use Spatie\Newsletter\NullDriver;
+use PomeloProductions\Newsletter\NullDriver;
 
 class NullDriverTest extends \PHPUnit\Framework\TestCase
 {

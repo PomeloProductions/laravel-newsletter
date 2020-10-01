@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Newsletter;
+namespace PomeloProductions\Newsletter;
 
 use DrewM\MailChimp\MailChimp;
 use Illuminate\Support\ServiceProvider;

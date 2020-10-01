@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Newsletter\Test;
+namespace PomeloProductions\Newsletter\Test;
 
 use PHPUnit\Framework\TestCase;
-use Spatie\Newsletter\Exceptions\InvalidNewsletterList;
-use Spatie\Newsletter\NewsletterList;
-use Spatie\Newsletter\NewsletterListCollection;
+use PomeloProductions\Newsletter\Exceptions\InvalidNewsletterList;
+use PomeloProductions\Newsletter\NewsletterList;
+use PomeloProductions\Newsletter\NewsletterListCollection;
 
 class NewsletterListCollectionTest extends TestCase
 {

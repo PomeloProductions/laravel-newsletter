@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Newsletter\Test;
+namespace PomeloProductions\Newsletter\Test;
 
 use PHPUnit\Framework\TestCase;
-use Spatie\Newsletter\NewsletterList;
+use PomeloProductions\Newsletter\NewsletterList;
 
 class NewsletterListTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Newsletter;
+namespace PomeloProductions\Newsletter;
 
 use Illuminate\Support\Collection;
-use Spatie\Newsletter\Exceptions\InvalidNewsletterList;
+use PomeloProductions\Newsletter\Exceptions\InvalidNewsletterList;
 
 class NewsletterListCollection extends Collection
 {

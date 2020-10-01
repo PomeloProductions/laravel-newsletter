@@ -20,7 +20,7 @@
             "email": "bryce@pomeloproductions.com",
             "homepage": "https://www.pomeloproductions.com",
             "role": "Developer"
-        },
+        }
     ],
     "require": {
         "php": "^7.3",
@@ -33,21 +33,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Newsletter\\": "src"
+            "PomeloProductions\\Newsletter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Newsletter\\Test\\": "tests"
+            "PomeloProductions\\Newsletter\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Newsletter\\NewsletterServiceProvider"
+                "PomeloProductions\\Newsletter\\NewsletterServiceProvider"
             ],
             "aliases": {
-                "Newsletter": "Spatie\\Newsletter\\NewsletterFacade"
+                "Newsletter": "PomeloProductions\\Newsletter\\NewsletterFacade"
             }
         }
     },

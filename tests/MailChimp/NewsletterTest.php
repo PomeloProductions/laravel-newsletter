@@ -1,19 +1,19 @@
 <?php
 
-namespace Spatie\Newsletter\Test;
+namespace PomeloProductions\Newsletter\Test;
 
 use DrewM\MailChimp\MailChimp;
 use Mockery;
 use PHPUnit\Framework\TestCase;
-use Spatie\Newsletter\Newsletter;
-use Spatie\Newsletter\NewsletterListCollection;
+use PomeloProductions\Newsletter\Newsletter;
+use PomeloProductions\Newsletter\NewsletterListCollection;
 
 class NewsletterTest extends TestCase
 {
     /** @var Mockery\Mock */
     protected $mailChimpApi;
 
-    /** @var \Spatie\Newsletter\Newsletter */
+    /** @var \PomeloProductions\Newsletter\Newsletter */
     protected $newsletter;
 
     public function setUp(): void

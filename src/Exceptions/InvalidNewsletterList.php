@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Newsletter\Exceptions;
+namespace PomeloProductions\Newsletter\Exceptions;
 
 use Exception;
 

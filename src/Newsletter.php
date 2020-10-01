@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Newsletter;
+namespace PomeloProductions\Newsletter;
 
 use DrewM\MailChimp\MailChimp;
 
@@ -9,7 +9,7 @@ class Newsletter
     /** @var \DrewM\MailChimp\MailChimp */
     protected $mailChimp;
 
-    /** @var \Spatie\Newsletter\NewsletterListCollection */
+    /** @var \PomeloProductions\Newsletter\NewsletterListCollection */
     protected $lists;
 
     public function __construct(MailChimp $mailChimp, NewsletterListCollection $lists)
