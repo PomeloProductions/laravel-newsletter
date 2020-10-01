@@ -96,7 +96,7 @@ class Newsletter
     {
         $response = $this->getMember($email, $listName);
 
-        if (! isset($response)) {
+        if (! $this->lastActionSucceeded()) {
             return false;
         }
 
@@ -191,8 +191,8 @@ class Newsletter
         string $html = '',
         string $listName = '',
         array $options = [],
-        array $contentOptions = [])
-    {
+        array $contentOptions = []
+    ) {
         $list = $this->lists->findByName($listName);
 
         $defaultOptions = [
