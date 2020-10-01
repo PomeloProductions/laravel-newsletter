@@ -1,12 +1,12 @@
 {
-    "name": "spatie/laravel-newsletter",
+    "name": "pomeloproductions/laravel-newsletter",
     "description": "Manage newsletters in Laravel",
     "keywords": [
         "laravel",
         "newsletter",
         "mailchimp"
     ],
-    "homepage": "https://github.com/spatie/laravel-newsletter",
+    "homepage": "https://github.com/pomeloproductions/laravel-newsletter",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,13 @@
             "email": "freek@spatie.be",
             "homepage": "https://murze.be",
             "role": "Developer"
-        }
+        },
+        {
+            "name": "Bryce Meyer",
+            "email": "bryce@pomeloproductions.com",
+            "homepage": "https://www.pomeloproductions.com",
+            "role": "Developer"
+        },
     ],
     "require": {
         "php": "^7.3",
